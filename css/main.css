@@ -6,11 +6,10 @@ body {
 .ww-home-page {
   background: url("../images/foto/img33.jpg") no-repeat center center;
   background-size: cover;
-  background-position: 0 45%;
+  background-position: 0 47%;
   height: 100vh;
   min-height: 480px;
   max-height: 1080px;
-
 }
 
 .ww-home-page .ww-wedding-announcement {
@@ -164,91 +163,92 @@ body {
     -moz-column-count: 1;
     column-count: 1;
   }
+}
 
-  /* RSVP Style */
-  .ww-rsvp-detail {
-    background: url("../images/rsvp-img.jpg") no-repeat center center;
-    background-size: cover;
-    min-height: 500px;
-    position: relative;
-  }
+/* RSVP Style */
+.ww-rsvp-detail {
+  background: url("../images/rsvp-img.jpg") no-repeat center center;
+  background-size: cover;
+  min-height: 500px;
+  position: relative;
+}
 
+.ww-rsvp-detail .ww-rsvp-form {
+  padding-left: 20%;
+}
+
+@media (max-width: 768px) {
   .ww-rsvp-detail .ww-rsvp-form {
-    padding-left: 20%;
+    padding-left: 10%;
   }
+}
 
-  @media (max-width: 768px) {
-    .ww-rsvp-detail .ww-rsvp-form {
-      padding-left: 10%;
-    }
+@media (max-width: 576px) {
+  .ww-rsvp-detail .ww-rsvp-form {
+    padding-left: 0%;
   }
+}
 
-  @media (max-width: 576px) {
-    .ww-rsvp-detail .ww-rsvp-form {
-      padding-left: 0%;
-    }
-  }
+.ww-rsvp-detail .ww-rsvp-form .form-control {
+  background-color: rgba(222, 222, 222, 0.2);
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+}
 
-  .ww-rsvp-detail .ww-rsvp-form .form-control {
-    background-color: rgba(222, 222, 222, 0.2);
-    color: #fff;
-    border: 1px solid rgba(255, 255, 255, 0.6);
-  }
+.ww-rsvp-detail .ww-rsvp-form .form-control::-moz-placeholder {
+  color: #dedede;
+}
 
-  .ww-rsvp-detail .ww-rsvp-form .form-control::-moz-placeholder {
-    color: #dedede;
-  }
+.ww-rsvp-detail .ww-rsvp-form .form-control:-ms-input-placeholder {
+  color: #dedede;
+}
 
-  .ww-rsvp-detail .ww-rsvp-form .form-control:-ms-input-placeholder {
-    color: #dedede;
-  }
+.ww-rsvp-detail .ww-rsvp-form .form-control::placeholder {
+  color: #dedede;
+}
 
-  .ww-rsvp-detail .ww-rsvp-form .form-control::placeholder {
-    color: #dedede;
-  }
+.ww-rsvp-detail .ww-rsvp-form select.form-control option {
+  background: rgba(0, 0, 0, 0.3);
+  color: #fff;
+}
 
-  .ww-rsvp-detail .ww-rsvp-form select.form-control option {
-    background: rgba(0, 0, 0, 0.3);
-    color: #fff;
-  }
+.ww-rsvp-detail .ww-rsvp-form .btn-submit {
+  background-color: rgba(245, 138, 119, 0.8);
+  padding: 0.45rem 1.5rem;
+  border: 0;
+}
 
-  .ww-rsvp-detail .ww-rsvp-form .btn-submit {
-    background-color: rgba(245, 138, 119, 0.8);
-    padding: 0.45rem 1.5rem;
-    border: 0;
-  }
+.ww-rsvp-detail:before {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
 
-  .ww-rsvp-detail:before {
-    content: "";
-    background-color: rgba(0, 0, 0, 0.3);
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    left: 0;
-    top: 0;
-  }
+/* Footer Style */
+.ww-footer a.credit {
+  color: inherit;
+  border-bottom: 1px dashed;
+  text-decoration: none;
+  cursor: pointer;
+}
 
-  /* Footer Style */
-  .ww-footer a.credit {
-    color: inherit;
-    border-bottom: 1px dashed;
-    text-decoration: none;
-    cursor: pointer;
-  }
+/* Common Style */
+.ww-title {
+  font-family: "Great Vibes", cursive;
+}
 
-  /* Common Style */
-  .ww-title {
-    font-family: "Great Vibes", cursive;
-  }
+.ww-section {
+  padding: 100px 0;
+}
 
-  .ww-section {
-    padding: 100px 0;
-  }
+.btn-primary {
+  color: #fff;
+}
 
-  .btn-primary {
-    color: #fff;
-  }
-
-  .btn-outline-primary:hover {
-    color: #fff;
-  }
+.btn-outline-primary:hover {
+  color: #fff;
+}
